@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="60940" started-at="2019-11-20T15:29:29Z" finished-at="2019-11-20T15:30:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="60940" started-at="2019-11-20T15:29:29Z" finished-at="2019-11-20T15:30:30Z">
+      <class name="com.test.ApplicationTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.test.ApplicationTest@47c62251]" name="setupSuite" is-config="true" duration-ms="388" started-at="2019-11-20T15:29:29Z" finished-at="2019-11-20T15:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.test.ApplicationTest@47c62251]" name="setupDriver" is-config="true" duration-ms="35978" started-at="2019-11-20T15:29:29Z" finished-at="2019-11-20T15:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="initialze()[pri:0, instance:com.test.ApplicationTest@47c62251]" name="initialze" is-config="true" duration-ms="301" started-at="2019-11-20T15:30:05Z" finished-at="2019-11-20T15:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialze -->
+        <test-method status="PASS" signature="searchAndSelectFood()[pri:0, instance:com.test.ApplicationTest@47c62251]" name="searchAndSelectFood" duration-ms="20531" started-at="2019-11-20T15:30:05Z" finished-at="2019-11-20T15:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndSelectFood -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.test.ApplicationTest@47c62251]" name="TearDown" is-config="true" duration-ms="2555" started-at="2019-11-20T15:30:26Z" finished-at="2019-11-20T15:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchAndSelectFood status=SUCCESS method=ApplicationTest.searchAndSelectFood()[pri:0, instance:com.test.ApplicationTest@47c62251] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.test.ApplicationTest@47c62251]" name="quitBrowser" is-config="true" duration-ms="1347" started-at="2019-11-20T15:30:29Z" finished-at="2019-11-20T15:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.test.ApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

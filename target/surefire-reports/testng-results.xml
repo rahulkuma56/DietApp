@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="21799" started-at="2019-11-10T07:11:50Z" finished-at="2019-11-10T07:12:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="21799" started-at="2019-11-10T07:11:50Z" finished-at="2019-11-10T07:12:12Z">
+      <class name="com.test.ApplicationTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.test.ApplicationTest@380fb434]" name="setupSuite" is-config="true" duration-ms="234" started-at="2019-11-10T07:11:50Z" finished-at="2019-11-10T07:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.test.ApplicationTest@380fb434]" name="setupDriver" is-config="true" duration-ms="16088" started-at="2019-11-10T07:11:50Z" finished-at="2019-11-10T07:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="initialze()[pri:0, instance:com.test.ApplicationTest@380fb434]" name="initialze" is-config="true" duration-ms="56" started-at="2019-11-10T07:12:06Z" finished-at="2019-11-10T07:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialze -->
+        <test-method status="PASS" signature="searchFood()[pri:0, instance:com.test.ApplicationTest@380fb434]" name="searchFood" duration-ms="766" started-at="2019-11-10T07:12:06Z" finished-at="2019-11-10T07:12:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFood -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.test.ApplicationTest@380fb434]" name="TearDown" is-config="true" duration-ms="4862" started-at="2019-11-10T07:12:07Z" finished-at="2019-11-10T07:12:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFood status=SUCCESS method=ApplicationTest.searchFood()[pri:0, instance:com.test.ApplicationTest@380fb434] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.test.ApplicationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
